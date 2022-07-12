@@ -12215,17 +12215,17 @@ main #jumbotron {
   height: 400px;
 }
 
-main section {
+main #main-content {
   background-color: #1c1c1c;
 }
 
-main section #series {
+main #main-content #series {
   width: 70%;
   margin: 0 auto;
   color: white;
 }
 
-main section #series #current-series {
+main #main-content #series #current-series {
   transform: translate(0, -50%);
   width: 250px;
   height: 50px;
@@ -12237,19 +12237,19 @@ main section #series #current-series {
   background-color: #0282f9;
 }
 
-main section #series #cards-series {
+main #main-content #series #cards-series {
   display: flex;
   flex-wrap: wrap;
   margin-top: -30px;
 }
 
-main section #series #cards-series .card-serie {
+main #main-content #series #cards-series .card-serie {
   width: 16.6666666667%;
   padding: 12px;
   margin-top: 30px;
 }
 
-main section #series #cards-series .card-serie img {
+main #main-content #series #cards-series .card-serie img {
   width: 100%;
   max-height: 200px;
   -o-object-fit: cover;
@@ -12259,14 +12259,14 @@ main section #series #cards-series .card-serie img {
   margin-bottom: 10px;
 }
 
-main section #series #load-more {
+main #main-content #series #load-more {
   display: flex;
   justify-content: center;
   padding: 20px 0;
   margin-top: 20px;
 }
 
-main section #series #load-more a {
+main #main-content #series #load-more a {
   text-decoration: none;
   color: white;
   display: flex;
@@ -12277,5 +12277,35 @@ main section #series #load-more a {
   background-color: #0282f9;
   font-size: 14px;
   font-weight: 600;
+}
+
+main #shop-content {
+  background-color: #0282f9;
+  padding: 40px 0;
+}
+
+main #shop-content div {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  padding: 0 25px;
+}
+
+main #shop-content div div {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+main #shop-content div div img {
+  max-width: 50px;
+  height: auto;
+  max-height: 60px;
+}
+
+main #shop-content div div span {
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
 }
 

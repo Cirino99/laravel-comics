@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home', [
         'arrLinks' => config('linksheader'),
-        'arrSeries' => config('comics')
+        'arrSeries' => config('comics'),
+        'arrShop' => config('shopmaterials'),
     ]);
 })->name('home');
