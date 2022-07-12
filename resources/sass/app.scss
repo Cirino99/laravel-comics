@@ -1,5 +1,18 @@
 //
 @import "~bootstrap/scss/bootstrap";
 @import "vars/vars.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 @import "partials/_header.scss";
 @import "partials/_main.scss";
