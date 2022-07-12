@@ -12149,3 +12149,104 @@ fieldset:disabled .btn {
   }
 }
 
+header {
+  height: 120px;
+  display: flex;
+  align-items: center;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+header nav ul {
+  list-style-type: none;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #464646;
+  position: relative;
+  font-weight: 600;
+}
+
+header nav ul li a:hover {
+  color: #0282f9;
+}
+
+header nav ul li a.active {
+  color: #0282f9;
+}
+
+header nav ul li a div {
+  position: absolute;
+  height: 5px;
+  width: 100%;
+  bottom: -51px;
+  left: 0;
+  background-color: #0282f9;
+}
+
+main #jumbotron {
+  background-image: url("/images/jumbotron.jpg");
+  height: 400px;
+}
+
+main section {
+  background-color: #1c1c1c;
+}
+
+main section #series {
+  width: 70%;
+  margin: 0 auto;
+  color: white;
+}
+
+main section #series #current-series {
+  transform: translate(0, -50%);
+  width: 250px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: 600;
+  background-color: #0282f9;
+}
+
+main section #series #cards-series {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -30px;
+}
+
+main section #series #load-more {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  margin-top: 20px;
+}
+
+main section #series #load-more a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  width: 180px;
+  background-color: #0282f9;
+  font-size: 14px;
+  font-weight: 600;
+}
+
