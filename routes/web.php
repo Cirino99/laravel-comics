@@ -18,5 +18,6 @@ Route::get('/', function () {
         'arrLinks' => config('linksheader'),
         'arrSeries' => config('comics'),
         'arrShop' => config('shopmaterials'),
+        'arrFooter' => config('footerlist'),
     ]);
 })->name('home');
