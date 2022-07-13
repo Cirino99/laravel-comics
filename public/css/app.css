@@ -163,8 +163,8 @@ main #main-content-serie .container .my-row .advertisement {
   width: 30%;
 }
 main #main-content-serie .container .my-row .advertisement img {
-  height: 100px;
-  width: auto;
+  height: auto;
+  width: 100%;
 }
 
 footer #footer-up {

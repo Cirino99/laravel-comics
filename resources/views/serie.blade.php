@@ -19,7 +19,8 @@
                     <p>{{$serie['description']}}</p>
                 </div>
                 <div class="advertisement">
-                    <img src="{{asset('/images/adv.jpg')}}" alt="">
+                    <span>ADVERTISEMENT</span>
+                    <img src="{{asset('/images/adve.jpg')}}" alt="">
                 </div>
             </div>
         </div>

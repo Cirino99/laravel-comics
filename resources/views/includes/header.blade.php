@@ -1,7 +1,7 @@
 <header>
     <nav>
         <a href="{{route('comics')}}">
-            <img src="{{asset('images/dc-logo.png')}}" alt="">
+            <img src="{{asset('/images/dc-logo.png')}}" alt="">
         </a>
         <ul>
             @foreach (config('linksheader') as $link)
