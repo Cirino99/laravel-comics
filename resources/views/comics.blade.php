@@ -11,8 +11,10 @@
             <div id="cards-series">
                 @foreach ($arrSeries as $serie)
                     <div class="card-serie">
-                        <img src="{{$serie['thumb']}}" alt="{{$serie['series']}}">
-                        <span>{{$serie['series']}}</span>
+                        <a href="{{ route('serie', ['id' => $serie['id']])}}">
+                            <img src="{{$serie['thumb']}}" alt="{{$serie['series']}}">
+                            <span>{{$serie['series']}}</span>
+                        </a>
                     </div>
                 @endforeach
             </div>

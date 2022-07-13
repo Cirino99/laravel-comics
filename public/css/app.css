@@ -25,7 +25,6 @@ header nav {
 }
 header nav ul {
   list-style-type: none;
-  margin-bottom: 0 !important;
 }
 header nav ul li {
   display: inline-block;
@@ -84,6 +83,10 @@ main #main-content #series #cards-series .card-serie {
   width: 16.6666666667%;
   padding: 12px;
   margin-top: 30px;
+}
+main #main-content #series #cards-series .card-serie a {
+  text-decoration: none;
+  color: white;
 }
 main #main-content #series #cards-series .card-serie img {
   width: 100%;
@@ -167,7 +170,6 @@ footer #footer-up div #footer-links div h3 {
   margin: 20px 0;
 }
 footer #footer-up div #footer-links div ul {
-  margin-bottom: 0 !important;
   padding-left: 0;
 }
 footer #footer-up div #footer-links div ul li {

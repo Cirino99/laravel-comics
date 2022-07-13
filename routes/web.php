@@ -27,6 +27,32 @@ Route::get('/', function () {
     ]);
 })->name('comics');
 
+Route::get('/comics/{id}', function ($id) {
+    $succes = false;
+    $series = config('comics');
+    $i = 0;
+    $lengthSeries = count($series);
+    while (!$succes) {
+        if ($series[$i]['id'] == $id) {
+            $serie = $series[$i];
+            $succes = true;
+        }
+        $i++;
+        if ($i >= $lengthSeries) {
+            $succes = true;
+        }
+    }
+    if (isset($serie)) {
+        return view('serie', [
+            'pageTitle' => 'Serie',
+            'serie' => $serie,
+            'arrFooter' => config('footerlist'),
+        ]);
+    } else {
+        abort(404);
+    }
+})->name('serie');
+
 Route::get('/movies', function () {
     return view('movies', [
         'arrFooter' => config('footerlist'),
