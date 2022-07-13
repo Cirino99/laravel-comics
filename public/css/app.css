@@ -55,15 +55,15 @@ main #jumbotron {
   background-image: url("/images/jumbotron.jpg");
   height: 400px;
 }
-main #main-content {
+main #main-content-comics {
   background-color: #1c1c1c;
 }
-main #main-content #series {
+main #main-content-comics #series {
   width: 70%;
   margin: 0 auto;
   color: white;
 }
-main #main-content #series #current-series {
+main #main-content-comics #series #current-series {
   transform: translate(0, -50%);
   width: 250px;
   height: 50px;
@@ -74,21 +74,21 @@ main #main-content #series #current-series {
   font-weight: 600;
   background-color: #0282f9;
 }
-main #main-content #series #cards-series {
+main #main-content-comics #series #cards-series {
   display: flex;
   flex-wrap: wrap;
   margin-top: -30px;
 }
-main #main-content #series #cards-series .card-serie {
+main #main-content-comics #series #cards-series .card-serie {
   width: 16.6666666667%;
   padding: 12px;
   margin-top: 30px;
 }
-main #main-content #series #cards-series .card-serie a {
+main #main-content-comics #series #cards-series .card-serie a {
   text-decoration: none;
   color: white;
 }
-main #main-content #series #cards-series .card-serie img {
+main #main-content-comics #series #cards-series .card-serie img {
   width: 100%;
   max-height: 200px;
   -o-object-fit: cover;
@@ -97,13 +97,13 @@ main #main-content #series #cards-series .card-serie img {
      object-position: top;
   margin-bottom: 10px;
 }
-main #main-content #series #load-more {
+main #main-content-comics #series #load-more {
   display: flex;
   justify-content: center;
   padding: 20px 0;
   margin-top: 20px;
 }
-main #main-content #series #load-more a {
+main #main-content-comics #series #load-more a {
   text-decoration: none;
   color: white;
   display: flex;
@@ -139,6 +139,32 @@ main #shop-content div div span {
   color: white;
   font-size: 15px;
   font-weight: 400;
+}
+
+main #main-content-serie .copertina {
+  height: 70px;
+  width: 100%;
+  background-color: #0282f9;
+}
+main #main-content-serie .copertina img {
+  transform: translate(0, -85%);
+}
+main #main-content-serie .container {
+  width: 60%;
+  margin: 0 auto;
+}
+main #main-content-serie .container .my-row {
+  display: flex;
+}
+main #main-content-serie .container .my-row .text-serie {
+  width: 70%;
+}
+main #main-content-serie .container .my-row .advertisement {
+  width: 30%;
+}
+main #main-content-serie .container .my-row .advertisement img {
+  height: 100px;
+  width: auto;
 }
 
 footer #footer-up {

@@ -5,7 +5,7 @@
 @section('mainContent')
 <main>
     <section id="jumbotron"></section>
-    <section id="main-content">
+    <section id="main-content-comics">
         <div id="series">
             <div id="current-series">CURREN SERIES</div>
             <div id="cards-series">

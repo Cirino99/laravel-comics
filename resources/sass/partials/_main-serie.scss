@@ -1,0 +1,35 @@
+main {
+    #main-content-serie {
+        .copertina {
+            height: 70px;
+            width: 100%;
+            background-color: $primary;
+
+            img {
+                transform: translate(0, -85%);
+            }
+        }
+
+        .container {
+            width: 60%;
+            margin: 0 auto;
+
+            .my-row {
+                display: flex;
+
+                .text-serie {
+                    width: 70%;
+                }
+
+                .advertisement {
+                    width: 30%;
+
+                    img {
+                        height: 100px;
+                        width: auto;
+                    }
+                }
+            }
+        }
+    }
+}
