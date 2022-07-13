@@ -64,7 +64,11 @@ main {
                 display: flex;
 
                 .name-spec {
-                    width: 40%;
+                    width: 35%;
+                }
+
+                .data-spec {
+                    width: 65%;
                 }
             }
         }

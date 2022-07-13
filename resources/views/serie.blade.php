@@ -32,7 +32,7 @@
                         <div class="divisor"></div>
                         <div class="talent-data">
                             <span class="name-spec">Art By:</span>
-                            <p>
+                            <p class="data-spec">
                                 @foreach ($serie['artists'] as $artista)
                                     <span class="data-serie">{{$artista}}</span>, 
                                 @endforeach
@@ -41,7 +41,7 @@
                         <div class="divisor"></div>
                         <div class="talent-data">
                             <span class="name-spec">Written By:</span>
-                            <p>
+                            <p class="data-spec">
                                 @foreach ($serie['writers'] as $scrittori)
                                     <span class="data-serie">{{$scrittori}}</span>, 
                                 @endforeach
@@ -54,19 +54,19 @@
                         <div class="divisor"></div>
                         <div class="talent-data">
                             <span class="name-spec">Series:</span>
-                            <p>
+                            <p class="data-spec">
                                 <span class="data-serie">{{$serie['series']}}</span>
                             </p>
                         </div>
                         <div class="divisor"></div>
                         <div class="talent-data">
                             <span class="name-spec">Us Price:</span>
-                            <p>{{$serie['price']}}</p>
+                            <p class="data-spec">{{$serie['price']}}</p>
                         </div>
                         <div class="divisor"></div>
                         <div class="talent-data">
                             <span class="name-spec">On Sale Date:</span>
-                            <p>{{$serie['sale_date']}}</p>
+                            <p class="data-spec">{{$serie['sale_date']}}</p>
                         </div>
                         <div class="divisor"></div>
                     </div>
