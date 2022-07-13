@@ -40,25 +40,37 @@ Route::get('/tv', function () {
 })->name('tv');
 
 Route::get('/games', function () {
-    return 'games';
+    return view('games', [
+        'arrFooter' => config('footerlist'),
+    ]);
 })->name('games');
 
 Route::get('/collectibles', function () {
-    return 'collectibles';
+    return view('collectibles', [
+        'arrFooter' => config('footerlist'),
+    ]);
 })->name('collectibles');
 
 Route::get('/videos', function () {
-    return 'videos';
+    return view('videos', [
+        'arrFooter' => config('footerlist'),
+    ]);
 })->name('videos');
 
 Route::get('/fans', function () {
-    return 'fans';
+    return view('fans', [
+        'arrFooter' => config('footerlist'),
+    ]);
 })->name('fans');
 
 Route::get('/news', function () {
-    return 'news';
+    return view('news', [
+        'arrFooter' => config('footerlist'),
+    ]);
 })->name('news');
 
 Route::get('/shop', function () {
-    return 'shop';
+    return view('shop', [
+        'arrFooter' => config('footerlist'),
+    ]);
 })->name('shop');

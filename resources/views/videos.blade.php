@@ -1,10 +1,10 @@
 @extends('templates.base')
 
-@section('pageTitle', 'Characters')
+@section('pageTitle', 'Videos')
 
 @section('mainContent')
 <main>
     <section id="jumbotron"></section>
-    <h1>characters</h1>
+    <h1>videos</h1>
 </main>
 @endsection
