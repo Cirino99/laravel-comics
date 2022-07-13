@@ -31,5 +31,42 @@ main {
                 }
             }
         }
+
+        #specifiche {
+            background-color: #f6f6f6;
+            border-top: 1px solid #d8d8d8;
+            padding-top: 40px;
+
+            .divisor {
+                width: 100%;
+                height: 1px;
+                background-color: #d8d8d8;
+                margin: 15px 0;
+            }
+
+            .talent-serie {
+                width: 50%;
+                color: #003f5e;
+                padding-right: 20px;
+            }
+
+            .spec-serie {
+                width: 50%;
+                color: #003f5e;
+                padding-left: 20px;
+            }
+
+            .data-serie {
+                color: #00a9d9;
+            }
+
+            .talent-data {
+                display: flex;
+
+                .name-spec {
+                    width: 40%;
+                }
+            }
+        }
     }
 }
