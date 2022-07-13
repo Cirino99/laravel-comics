@@ -3,5 +3,7 @@
 @section('pageTitle', 'Homepage')
 
 @section('mainContent')
-@include('includes.main')
+<main>
+    <h1>tv</h1>
+</main>
 @endsection

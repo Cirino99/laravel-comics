@@ -1,3 +1,8 @@
+@extends('templates.base')
+
+@section('pageTitle', 'Homepage')
+
+@section('mainContent')
 <main>
     <section id="jumbotron"></section>
     <section id="main-content">
@@ -27,3 +32,4 @@
         </div>
     </section>
 </main>
+@endsection

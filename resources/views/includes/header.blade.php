@@ -1,12 +1,14 @@
 <header>
     <nav>
-        <img src="{{asset('images/dc-logo.png')}}" alt="">
+        <a href="{{route('comics')}}">
+            <img src="{{asset('images/dc-logo.png')}}" alt="">
+        </a>
         <ul>
-            @foreach ($arrLinks as $link)
+            @foreach (config('linksheader') as $link)
                 <li>
-                    <a class="<?php if($link['current']){ echo 'active'; } ?>" href="{{$link['url']}}">
+                    <a class=" @if ($link['url'] == Route::currentRouteName()) active @endif " href="{{ route($link['url'])}}">
                         {{$link['text']}}
-                        @if ($link['current'])
+                        @if ($link['url'] == Route::currentRouteName())
                         <div></div>
                         @endif
                     </a>
